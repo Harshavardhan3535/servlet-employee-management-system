@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Employee-Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- <form action="register">
+		EmpId:<input type="text" name="empId" />		
+		Name:<input type="text" name="empName" />
+		Email:<input type="email" name="empEmail" />
+		Password:<input type="password" name="empPassword" />
+		Age:<input type="number" name="empAge" />
+		Male:<input type="radio" name="empGender" value="male" />
+		Female:<input type="radio" name="empGender" value="female"/>
+		Salary:<input type="text" name="empSalary" />
+		Department:<input type="text" name="empDept" />
+		
+		<input type="submit" value="register"/>
+	</form> -->
+    <div class="container">
+        <h2 class="heading-primary">Employee Registration</h2>
+        <form action="register" >
+            <div class="form-group">
+                <label>Employee ID</label>
+                <input type="text" name="empId" placeholder="Enter employee ID" required />
+            </div>
+            
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" name="empName" placeholder="Enter full name" required />
+            </div>
+            
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" name="empEmail" placeholder="Enter email address" required />
+            </div>
+            
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="empPassword" placeholder="Enter password" required />
+            </div>
+            
+            <div class="form-group">
+                <label>Age</label>
+                <input type="number" name="empAge" placeholder="Enter age" required />
+            </div>
+            
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="empGender" value="male" required /> Male</label>
+                    <label><input type="radio" name="empGender" value="female" /> Female</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>Salary</label>
+                <input type="text" name="empSalary" placeholder="Enter salary" required />
+            </div>
+            
+            <div class="form-group">
+                <label>Department</label>
+                <input type="text" name="empDept" placeholder="Enter department" required />
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Register Employee</button>
+        </form>
+        <a href="home.jsp" class="btn btn-back" style="display: block; text-align: center; margin-top: 20px;">← Back to Home</a>
+    </div>
+</body>
+</html>
