@@ -181,27 +181,27 @@ http://localhost:8080/employee-management-system
 
 # Screenshots
 
-## Home Page
+## 🏠 Home Page
 
-(Add Screenshot Here)
-
----
-
-## Register Employee
-
-(Add Screenshot Here)
+![Home Page](screenshots/home-page.png)
 
 ---
 
-## Employee List
+## 📝 Register Employee
 
-(Add Screenshot Here)
+![Register Employee](screenshots/register-page.png)
 
 ---
 
-## Update Employee
+## 📋 Employee List
 
-(Add Screenshot Here)
+![Employee List](screenshots/employee-list.png)
+
+---
+
+## ✏️ Update Employee
+
+![Update Employee](screenshots/update-page.png)
 
 ---
 
