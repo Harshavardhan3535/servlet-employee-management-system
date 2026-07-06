@@ -63,7 +63,14 @@ employee-management-system
 │   │
 │   └── test
 │
+├── screenshots
+│   ├── home-page.png
+│   ├── register-page.png
+│   ├── employee-list.png
+│   └── update-page.png
+│
 ├── pom.xml
+├── .gitignore
 └── README.md
 ```
 
