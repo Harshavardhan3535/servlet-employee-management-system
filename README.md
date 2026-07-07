@@ -64,6 +64,7 @@ employee-management-system
 │   └── test
 │
 ├── screenshots
+│   │── project-architecture.png
 │   ├── home-page.png
 │   ├── register-page.png
 │   ├── employee-list.png
@@ -79,24 +80,36 @@ employee-management-system
 # Project Architecture
 
 ```
-Browser
-    │
-    ▼
-JSP / HTML Pages
-    │
-    ▼
-Servlet Controllers
-    │
-    ▼
-Employee DAO
-    │
-    ▼
-JDBC
-    │
-    ▼
-PostgreSQL Database
+                +----------------------+
+                |      Browser         |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |     JSP / HTML       |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                | Servlet Controllers  |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |    Employee DAO      |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |        JDBC          |
+                +----------+-----------+
+                           |
+                           v
+                +----------------------+
+                |     PostgreSQL       |
+                +----------------------+
 ```
-
+![Project Architecture](screenshots/project-architecture.png)
 ---
 
 # CRUD Operations
