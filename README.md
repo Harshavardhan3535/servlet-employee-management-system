@@ -109,7 +109,13 @@ employee-management-system
                 |     PostgreSQL       |
                 +----------------------+
 ```
+# Project Architecture
+
+```
+
 ![Project Architecture](screenshots/project-architecture.png)
+
+```
 ---
 
 # CRUD Operations
